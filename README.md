@@ -27,7 +27,7 @@ Build a unique model to extract text from images and classify them on the basis 
 
 ## Project Deployment Walk-Through
 https://drive.google.com/file/d/15eZIfKGq7xCDytilxT9s5C8gsWqLFUpU/view?usp=sharing
-![](video_demo.gif)
+![](https://github.com/mihir1493/Toxic-Comment-Classifier-for-Instagram/blob/master/demo_video.gif)
 
 ## EDA
 The data is highly skewed as there are far less 'severe_toxic' classes as compared to the entire dataset. Thus downsampling has to be performed, causing loss of valuable information.
@@ -35,7 +35,7 @@ Secondly, the data is too much to be viable in processing on my local machine, h
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
-*	**Multinominal Naive Bayes** : Accuracy Score = 0.927
+*	**Multinominal Naive Bayes** : Accuracy Score = 0.936
 *   **Random Forest Classifier**: Accuracy Score = 0.924
 *	**Logistic Regression**: Accuracy Score = 0.92
 *	**Gradient Boosting Classifier**: Accuracy Score = 0.912
