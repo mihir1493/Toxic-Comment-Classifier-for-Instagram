@@ -1,5 +1,5 @@
 # Problem Statement
-Build a unique model to extract text from images and classify them on the basis of excessive content (Ex: toxic, abusive, hatred, rasist, sexist)
+Build a unique model to extract text from images and classify them on the basis of excessive content (Ex: toxic, abusive, hatred, racist, sexist)
  
 ## Project Overview:  
 * Using CV2 and Pytesseract to extract Textual information from screenshots
