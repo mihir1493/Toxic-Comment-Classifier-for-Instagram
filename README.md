@@ -26,12 +26,11 @@ Build a unique model to extract text from images and classify them on the basis 
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Tesseract_OCR_logo_%28Google%29.png" width=270>](https://tesseract-ocr.github.io/) 
 
 ## Project Deployment Walk-Through
-https://drive.google.com/file/d/15eZIfKGq7xCDytilxT9s5C8gsWqLFUpU/view?usp=sharing
 ![](https://github.com/mihir1493/Toxic-Comment-Classifier-for-Instagram/blob/master/demo_video.gif)
 
 ## EDA
-The data is highly skewed as there are far less 'severe_toxic' classes as compared to the entire dataset. Thus downsampling has to be performed, causing loss of valuable information.
-Secondly, the data is too much to be viable in processing on my local machine, hence I have picked a subset of data.
+The data is highly skewed as there are far less `severe_toxic` classes as compared to the entire dataset. Thus downsampling has to be performed, causing loss of valuable information.
+Secondly, the data is too large to process on my local machine, hence I have picked a subset of data.
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
