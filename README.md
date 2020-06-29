@@ -40,7 +40,7 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Logistic Regression**: Accuracy Score = 0.92
 *	**Gradient Boosting Classifier**: Accuracy Score = 0.912
 
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+![alt text](https://github.com/mihir1493/Toxic-Comment-Classifier-for-Instagram/blob/master/results.JPG "Results")
 
 ## Productionization 
 In this step, I built a flask API endpoint that was hosted on a local webserver. The comments were then passed to a CountVectorizer to tokenize the text and parsed thought the model to evaluate the result. 
