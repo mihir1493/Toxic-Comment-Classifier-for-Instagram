@@ -46,7 +46,7 @@ The Random Forest model far outperformed the other approaches on the test and va
 In this step, I built a flask API endpoint that was hosted on a local webserver. The comments were then passed to a CountVectorizer to tokenize the text and parsed thought the model to evaluate the result. 
 
 ## Team
-[![Devesh](https://avatars2.githubusercontent.com/u/49936431?s=400&v=4 | width=25)](https://github.com/deveshdatwani) 
-[![Mihir](https://avatars3.githubusercontent.com/u/56906607?s=400&v=4)](https://github.com/mihir1493)
+[![Devesh](https://avatars2.githubusercontent.com/u/49936431?s=200&v=4)](https://github.com/deveshdatwani) 
+[![Mihir](https://avatars3.githubusercontent.com/u/56906607?s=200&v=4)](https://github.com/mihir1493)
 
 
