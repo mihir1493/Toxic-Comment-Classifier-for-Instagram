@@ -1,15 +1,15 @@
 # Problem Statement
 Build a unique model to extract text from images and classify them on the basis of excessive content (Ex: toxic, abusive, hatred, rasist, sexist)
  
-## Project Overview 
-*Using CV2 and Pytesseract to extract Textual information from screenshots
-*Using Toxic Comment Classifier Data as a training dataset
-*Selecting the `severe_toxic` table as the `dependent variable` and `comment_text` as the `independent variable`
-*Data Preparation - Handling the slang text and useless characters
-*Processing the data using NLTK
-*Creating a model using Sklearn
-*Pickle the model
-*Creating a Flask API Endpoint to classify comments using the pretrained model
+## Project Overview:  
+* Using CV2 and Pytesseract to extract Textual information from screenshots
+* Using Toxic Comment Classifier Data as a training dataset
+* Selecting the `severe_toxic` table as the `dependent variable` and `comment_text` as the `independent variable`
+* Data Preparation - Handling the slang text and useless characters
+* Processing the data using NLTK
+* Creating a model using Sklearn
+* Pickle the model
+* Creating a Flask API Endpoint to classify comments using the pretrained model
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
