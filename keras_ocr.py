@@ -1,7 +1,7 @@
 import cv2 
 import keras_ocr 
 
-image = cv2.imread('/home/devesh/Downloads/flag.jpeg')
+image = cv2.imread('image/address')
 
 pipeline = keras_ocr.pipeline.Pipeline()
 
